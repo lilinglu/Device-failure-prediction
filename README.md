@@ -19,5 +19,6 @@ Aprirl 20, 2019
 ![WeChat4bfdb29bd5291137c9b8812f27227d45](https://user-images.githubusercontent.com/40584525/56835547-60e3cb00-6829-11e9-832c-cf98064e35af.png)
 * As we can see that the  number of devices decreases as time goes on. And we have noticed there is a big jump in the middle. That maybe some devices get back again after failed first.
 
-![WeChata43ff6dbc2273260633e7427903f4a50](https://user-images.githubusercontent.com/40584525/56835753-f54e2d80-6829-11e9-96c3-c38372360f36.png)
+![WeChat86a1951cc2f1259bab19346c19aa7e1c](https://user-images.githubusercontent.com/40584525/56835953-81f8eb80-682a-11e9-9998-9cb5e3a6ac17.png)
+
 * For those devices get back again after failure, they failure date are different from their 'max date'
