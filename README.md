@@ -16,3 +16,5 @@ Aprirl 20, 2019
 * Attribute7 and 8 seems like exactly same to each other, we can drop one of them.
 * Attribute 2,3,4,7,9 are highly skewed.
 * Attributes differ in their magnitudes. Scaling or centering is requried.
+![WeChat4bfdb29bd5291137c9b8812f27227d45](https://user-images.githubusercontent.com/40584525/56835547-60e3cb00-6829-11e9-832c-cf98064e35af.png)
+* As we can see that the  number of devices decreases as time goes on. And we have noticed there is a big jump in the middle. That maybe some devices get back again after failed first.
