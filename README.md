@@ -1,6 +1,6 @@
 # Device-failure-prediction
 Liling Lu
-Aprirl 20, 2019
+April 20, 2019
 ## Overview
 * This document has done some EDA and Data Engineering things based on the given csv data set and finnally built some high performance models.
 * Some of the most import steps are: 1 dealing with imbalanced dataset. 2 exploration on the feature 'date'. 3 some devices are removed and then put back to use at different time period. 4 oversampling should be done before or within cross validation?
