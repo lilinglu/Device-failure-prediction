@@ -22,3 +22,18 @@ Aprirl 20, 2019
 ![WeChat86a1951cc2f1259bab19346c19aa7e1c](https://user-images.githubusercontent.com/40584525/56835953-81f8eb80-682a-11e9-9998-9cb5e3a6ac17.png)
 
 * For those devices get back again after failure, they failure date are different from their 'max date'
+
+![WeChat18f5d9cd268981f4cef9df3bf283f909](https://user-images.githubusercontent.com/40584525/56836286-a1dcdf00-682b-11e9-964c-4adee3267e07.png)
+
+* As for attribute 3,4,5,7,9, most of their values are vero, to change them to catagorical features may make more sense.
+
+## Mean while, I've tried two ways to do oversampling. If I upsample a dataset before splitting it into a train and validation set, I could end up with the same observation in both datasets. As a result, a complex enough model will be able to perfectly prdict the value for those observations when prediction on the validation set, inflating the metrix.
+## The results turn out that we should upsamplint within the cross validation, which means we just oversample the data set used to train the model. For the validation set, it is still unseen.
+![WeChat0f41fef78358121010eaf33e3be0a696](https://user-images.githubusercontent.com/40584525/56836325-bf11ad80-682b-11e9-82e2-c7285d6beeef.png)
+* Here I drewed the ROC curve for the top 4 models I generated above.
+ 
+![WeChat089384b606959c56da6849957b7a821a](https://user-images.githubusercontent.com/40584525/56836328-c20c9e00-682b-11e9-9180-b32ccfae9c0c.png)
+
+* The results are pretty good, which means the fitted model has very good generalization ability.
+## Conclution
+* So far, we've built a very good model after doing such works. But I think we still have much more things to do. One thing is doing more data engineering things. Second is try to use other classification models, for example neural network.
