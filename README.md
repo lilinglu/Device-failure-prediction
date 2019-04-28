@@ -27,8 +27,9 @@ April 20, 2019
 
 * As for attribute 3,4,5,7,9, most of their values are vero, to change them to catagorical features may make more sense.
 
-## Mean while, I've tried two ways to do oversampling. If I upsample a dataset before splitting it into a train and validation set, I could end up with the same observation in both datasets. As a result, a complex enough model will be able to perfectly prdict the value for those observations when prediction on the validation set, inflating the metrix.
-## The results turn out that we should upsamplint within the cross validation, which means we just oversample the data set used to train the model. For the validation set, it is still unseen.
+## Oversampling
+* Mean while, I've tried two ways to do oversampling. If I upsample a dataset before splitting it into a train and validation set, I could end up with the same observation in both datasets. As a result, a complex enough model will be able to perfectly prdict the value for those observations when prediction on the validation set, inflating the metrix.
+* The results turn out that we should upsamplint within the cross validation, which means we just oversample the data set used to train the model. For the validation set, it is still unseen.
 ![WeChat0f41fef78358121010eaf33e3be0a696](https://user-images.githubusercontent.com/40584525/56836325-bf11ad80-682b-11e9-82e2-c7285d6beeef.png)
 * Here I drewed the ROC curve for the top 4 models I generated above.
  
