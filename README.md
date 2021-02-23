@@ -4,7 +4,7 @@ April 20, 2019
 ## Overview
 * EDA and Data Engineering work have been done based on the given csv data set and some high performance models were bulit at the end.
 * Chanllenging parts: 1 dealing with imbalanced dataset. 2 exploration on the feature 'date'. 3 some devices are removed and then put back to use at different time period. 4 oversampling should be done before or within cross validation?
-## project background
+## Project background
 * Company has a fleet of devices transmitting daily aggregated telemetry attributes.Predictive maintenance techniques are designed to help determine the condition of in-service  equipment in order to predict when maintenance should be performed. This approach promises cost savings over routine or time-based preventive  maintenance, because tasks are performed only when warranted.
 ## Exploratory Data Analysis
 
@@ -37,5 +37,5 @@ April 20, 2019
 ![WeChatd008517b5a41192a946e6f51c6b15f17](https://user-images.githubusercontent.com/40584525/56856573-813b8480-6912-11e9-8056-ebe49627a9cf.png)
 
 * The results are pretty good, which means the fitted model has very good generalization ability.
-## Conclution
+## Future work
  Try to use other classification models, for example neural network.
